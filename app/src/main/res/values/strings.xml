@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ReBooks</string>
+    <string name="email">Email</string>
+    <string name="passwords">Passwords</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="rebooks">ReBooks</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="sell">Sell</string>
+    <string name="email_example">Example.email@email.com</string>
+    <string name="example">Example</string>
+    <string name="city">City</string>
+    <string name="example_street">Example89 street</string>
+    <string name="example_phone">087702506077</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="having_unused_book">Having Unused Book ?</string>
+    <string name="setting">Settings</string>
+
+    <string-array name="gender_item">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

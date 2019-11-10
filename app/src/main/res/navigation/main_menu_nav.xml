@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_menu_nav"
+    app:startDestination="@id/home_menu">
+
+    <fragment
+        android:id="@+id/home_menu"
+        android:name="com.anxdre.rebooks.screens.mainmenu.MainMenuFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainMenuFragment_to_detailItemFragment"
+            app:destination="@id/detailItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_menu"
+        android:name="com.anxdre.rebooks.screens.mainmenu.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/sell_menu"
+        android:name="com.anxdre.rebooks.screens.mainmenu.SellMenu"
+        android:label=" Sell Item"
+        tools:layout="@layout/fragment_sell_menu" />
+    <fragment
+        android:id="@+id/detailItemFragment"
+        android:name="com.anxdre.rebooks.screens.mainmenu.DetailItemFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail_item" />
+    <fragment
+        android:id="@+id/settings_menu"
+        android:name="com.anxdre.rebooks.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
